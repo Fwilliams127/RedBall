@@ -1,0 +1,45 @@
+<html>
+
+<head>
+<script type='text/javascript' src='http://lrn.icstars.org/redball.js'></script> 
+<script type = 'text/javascript'>
+function sayhelloworld(){
+  alert ('Fabian Is Awesome');
+}
+</script>
+<script>
+function moveup() 
+{
+redball.top=redball.top -10;
+} 
+</script>
+<script>
+function movedown()
+{
+redball.top=redball.top +10;
+}
+</script>
+<script>
+function moveright()
+{
+redball.left=redball.left +10;
+}
+</script>
+<script>
+function moveleft()
+{
+redball.left=redball.left = -10;
+}
+</script>
+</head>
+<body>
+<img id='redball' src='http://www.icstars.org/files/redball.jpg'/>
+<button onclick="moveup()")>Move Up</button>
+<button onclick="moveleft()")>Move left</button>
+<button onclick="moveright()")>Move Right</button>
+<button onclick="movedown()")>Move Down</button>
+<button onclick="sayhelloworld();">I GOT IT</button>
+
+
+</html>
+
