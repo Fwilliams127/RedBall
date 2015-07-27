@@ -5,7 +5,13 @@
 <script>
 
 function moveup() {
-	redball.top=redball.top -10;
+if(redball.top<10) 
+{alert('stopit')
+}else {redball.top=redball.top -10;}
+	
+}
+
+	redball.top=redball.top -10; 
 }
 
 </script>
