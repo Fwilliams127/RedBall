@@ -119,7 +119,7 @@ function moveoctagon() {
 <script>
 function moverightsomemo() 
 	{if (redball.left=redball.left +10 > 1000); 
-	{alert (AW HELL NAW)
+	{alert (I GOT THIS TRUST ME)
 	}
 	redball.left=redball.left +10;
 }
@@ -133,7 +133,7 @@ function moverightsomemo()
 <img id='redball' src="http://b-i.forbesimg.com/ups/files/2013/07/earth1.jpg">
 
 <a id="movebutt">
-<button onclick="moverightagain();">moverightsomemo </button>
+<button onclick="move right();">moveright </button>
 <button onclick="moveup();">Up</button>
 <button onclick="movedown();">Down</button>
 <button onclick="moveleft();">Left</button>
