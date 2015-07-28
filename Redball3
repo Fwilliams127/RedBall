@@ -7,7 +7,8 @@
 function moveup() {
 if(redball.top<10) 
 {alert('stopit')
-}else {redball.top=redball.top -10;}
+}
+else {redball.top=redball.top -10;
 	
 }
 
@@ -38,7 +39,7 @@ function moveright() {
 </script>
 
 <script> function myFunction()
-	{alert("The Sky");
+	{alert("The");
 	}
 	
 </script>
@@ -139,7 +140,7 @@ function moverightsomemo()
 <img id='redball' src="http://b-i.forbesimg.com/ups/files/2013/07/earth1.jpg">
 
 <a id="movebutt">
-<button onclick="move right();">moveright </button>
+
 <button onclick="moveup();">Up</button>
 <button onclick="movedown();">Down</button>
 <button onclick="moveleft();">Left</button>
