@@ -1,0 +1,49 @@
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+<style>
+#fabes{
+position: absolute;
+left: 90px;
+top: 100px;
+}
+</style>
+
+<script>
+function fadeout(){
+	var elem = $("#fabian");
+	elem.fadeOut();
+}
+function fadein(){
+    var elem=$("#fabian");
+	elem.fadeIn();
+}
+function Grow(){
+    var elem=$("#fabian");
+	elem.css("font-size","25px");
+}
+function moveright(){
+  var elem = $("#fabes");
+  var pos = elem.offset();
+  pos.left = pos.left + 20;
+  elem.css({ top: pos.top+'px', left: pos.left+'px' });
+}
+</script>
+</head>
+<body>
+<p id="fabian"> Hi My Name Is Fabian</p>
+
+
+<button onclick="fadeout();">Fadeouttahere</button>
+<button onclick="fadein();">Fadeintome</button>
+<button onclick="Grow();">Grow</button>
+<button onclick="moveright();">Right</button>
+
+
+<img id="fabes" src="http://b-i.forbesimg.com/ups/files/2013/07/earth1.jpg">
+</body>
+
+
+</html>
