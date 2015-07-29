@@ -1,41 +1,54 @@
- <html>
+<html>
+
 <head>
 <link href="Redball.css" rel="stylesheet" type="text/css">
 <script type='text/javascript' src='http://lrn.icstars.org/redball.js'></script>
 <script>
 
 function moveup() {
-if(redball.top<10) 
-{alert('stopit')
+if(redball.top>0) 
+{redball.top = redball.top -10;
 }
-else {redball.top=redball.top -10;
-	
-}
+else {
 
-	redball.top=redball.top -10; 
-}
+alert('stopit')
 
+}
+}
 </script>
 
 <script>
-function movedown() {
-	redball.top=redball.top +10;
+function movedown(){
+if(redball.top<200)
+{redball.top=redball.top +10;
 }
-
+else {
+alert('just stop it here')
+}
+}
 </script>
 
 <script>
 function moveleft() {
-	redball.left=redball.left -10;
+	if(redball.left>-35)
+{redball.left=redball.left -10;
 }
-
+else {
+alert('you got it')
+ 
+}
+}
 </script>
 
 <script>
 function moveright() {
-	redball.left=redball.left +10;
+	if(redball.left<850)
+{redball.left=redball.left +10; 
 }
-
+else {
+alert('you got it')
+}
+}
 </script>
 
 <script> function myFunction()
@@ -118,20 +131,13 @@ function moveoctagon() {
 	moveup();
 	moveup();
 	moveupright();
+	moveupright();
+	moveupright();
 	
 }
 
 </script>	
 
-<script>
-function moverightsomemo() 
-	{if (redball.left=redball.left +10 > 1000); 
-	{alert (I GOT THIS TRUST ME)
-	}
-	redball.left=redball.left +10;
-}
-	
-</script>
 </head>
 <body style="background-color:black">
 
